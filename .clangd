@@ -1,0 +1,9 @@
+CompileFlags:
+  Add: [
+      "-I",
+      "include", # Tells clangd where to find the 'bits' folder
+      "-include",
+      "bits/stdc++.h", # Forces clangd to precompile/pre-include it
+      "-Wno-gnu-include-next",
+    ]
+  Compiler: g++

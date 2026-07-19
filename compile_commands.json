@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/Users/young/Code/cp",
+  "arguments": ["/usr/bin/g++", "-c", "-Qunused-arguments", "-g", "-O0", "-std=c++23", "-Iinclude", "-o", "build/.objs/cp/macosx/arm64/debug/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+}]
