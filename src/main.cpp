@@ -14,6 +14,12 @@ template <typename T> void print_vec(vector<T> &v) {
   cout << endl;
 }
 
+template <typename K, typename V> void print_map(map<K, V> &mp) {
+  for (auto [key, value] : mp) {
+    cout << "key: " << key << ", value: " << value << "\n";
+  }
+}
+
 const ll MOD = 1e9 + 7;
 
 int main() {}
