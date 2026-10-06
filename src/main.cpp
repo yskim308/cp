@@ -20,6 +20,14 @@ template <typename K, typename V> void print_map(map<K, V> &mp) {
   }
 }
 
+template <typename T> vector<T> fillVec(size_t n) {
+  vector<T> v(n);
+  for (size_t i = 0; i < n; ++i) {
+    cin >> v[i];
+  }
+  return v;
+}
+
 const ll MOD = 1e9 + 7;
 
 int main() {}
