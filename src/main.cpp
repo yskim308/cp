@@ -28,6 +28,17 @@ template <typename T> vector<T> fillVec(size_t n) {
   return v;
 }
 
+ll power(ll a, ll b) {
+  ll res = 1;
+  while (b > 0) {
+    if (b & 1)
+      res *= a;
+    a *= a;
+    b >>= 1;
+  }
+  return res;
+}
+
 const ll MOD = 1e9 + 7;
 
 int main() {}
