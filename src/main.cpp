@@ -7,11 +7,12 @@ typedef unsigned int uint;
 #define rep(i, n) for (ll i = 0; i < n; ++i)
 
 const ll INF = 2e18;
-template <typename T> void print_vec(vector<T> &v) {
+template <typename T> void print_vec(vector<T> &v, string name = "") {
+  cout << name << "\n";
   for (T i : v) {
     cout << "[" << i << "]";
   }
-  cout << endl;
+  cout << "\n\n";
 }
 
 template <typename K, typename V> void print_map(map<K, V> &mp) {
