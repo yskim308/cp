@@ -1,12 +1,11 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-typedef long long ll;
-typedef unsigned long long ull;
-typedef unsigned int uint;
+using ll = long long;
+using ull = unsigned long long;
+using uint = unsigned int;
 #define rep(i, n) for (ll i = 0; i < n; ++i)
 
-const ll INF = 2e18;
 template <typename T> void print_vec(vector<T> &v, string name = "") {
   cout << name << "\n";
   for (T i : v) {
@@ -40,6 +39,7 @@ ll power(ll a, ll b) {
   return res;
 }
 
-const ll MOD = 1e9 + 7;
+constexpr ll MOD = 1e9 + 7;
+constexpr ll INF = 2e18;
 
 int main() {}
